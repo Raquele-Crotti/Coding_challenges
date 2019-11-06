@@ -18,7 +18,7 @@ def print_values(list_node)
 end  #Just this bundle of code produces output 12 --> 99 --> 37 --> nil when called
 
 class Stack
-    attr_reader :data
+    attr_accessor :data
 
     def initialize
         @data = nil
@@ -51,17 +51,18 @@ class Stack
 end
 
 def reverse_list(list)
-  stack = Stack.new #create instance of new empty stack
+  stack = Stack.new #create object of new empty stack
 
-  while list
-    stack.push(list.value) #push elements into the stack
-    list = list.next_node # list elements os stack
+  while list #while list is being executed,...
+    stack.push(list.value) #push value into the stack
+    list = list.next_node # list values in nodes of stack
   end
 
     LinkedListNode.new(stack.pop, stack.data) #pop node from stack, show data from node
 end
 
 
+#accessor methods
 
 node1 = LinkedListNode.new(37)
 node2 = LinkedListNode.new(99, node1)
