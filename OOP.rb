@@ -1,4 +1,4 @@
-class Dog
+class Cat
 attr_accessor :size
 
    def initialize(name) 
@@ -6,23 +6,23 @@ attr_accessor :size
       @size = 2
     end
 
-   def bark  #function is a block of code that we can run
-    puts "woof"
+   def meow  #function is a block of code that we can run
+    puts "meow"
    end
 
-  def self.which_is_bigger(dog1, dog2) 
-    return dog1.size > dog2.size
+  def self.which_is_bigger(cat1, cat2) 
+    return cat1.size > cat2.size
   end
 
    private
 
-   def heartbeat  #function a user cannot call
-    puts "heartbeat"
+   def purr  #function a user cannot call
+    puts "purr"
    end
     
 end
 
-dog = Dog.new("Rosco") #call initialize function
-dog.bark()
-dog2 = Dog.new("Sally")
-Dog.which_is_bigger(dog, dog2) #calling function using variable dog1 and dog2
+cat = Cat.new("Harry") #call initialize function
+cat.meow()
+cat2 = Cat.new("Sally")
+Cat.which_is_bigger(cat, cat2) #calling function using variable cat and cat2
