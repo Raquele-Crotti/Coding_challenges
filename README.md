@@ -153,3 +153,17 @@ Satisfy the following criteria:
 The class should take arguments when you build a new instance of it.
 The class should store the values that it is initialized with, in its instance variables.
 You should use attr_accessor.
+
+
+
+## Build a Deck of Cards
+
+In this lesson, build a Deck class that deals with a collection of Cards.
+
+Specification of the Deck
+
+The specification of a deck of cards is as follows:
+
+- When a new deck is initialized (Deck.new), it will automatically store each card in an array in the class.
+- There will be a shuffle method that will randomly order the array of cards in the deck.
+- There will be deal method, which will return the top card from the deck, and remove it from the array.
