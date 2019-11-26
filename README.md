@@ -2,7 +2,7 @@
 
 
 
-##Image Blur 1
+## Image Blur 1
 
 Build a class that allows us to build a new image with the data we specify. Make it possible for the class to output the image to the screen. Your goal is to have the following code work:
 
@@ -25,7 +25,9 @@ And when you run that code it will output the following to the terminal window:
 0000
 ```
 
-##Image Blur 2
+
+
+## Image Blur 2
 
 Image Blur #2: Perform an Image Transformation
 
@@ -33,13 +35,19 @@ In the previous assignment we build a data representation of a pure black and wh
 
 Given a black and white image, represented as the class you already implemented, implement a blur method to run a transformation on the image. Running the blur transformation causes any 1 in the image to cause the pixel to the left, right, above and below to become a 1.
 
-##Image Blur 3
+
+
+
+## Image Blur 3
 
 Given an image, we want to build a method to blur the image. However, instead of only blurring images that are within 1 pixel, we want to specify how far to blur pixels that are within a Manhattan DistanceLink opens in new tab of what is specified. In the previous challenge we built a method that will produce the blurring with a Manhattan distance of 1. Build the method def blur(distance) that will implement a blurring of the Manhattan distance specified.
 
 In short: you want to find all 1's and turn any pixels that can be reached by making n moves or less using only left, right, up or down from the starting point.
 
-##Linked List 1
+
+
+
+## Linked List 1
 
 The following ruby code implements a LinkedList:
 
@@ -113,7 +121,9 @@ macbook-air:$ ruby code.rb
 37 --> 99 --> 12 --> 
 ```
 
-##Linked List 2
+
+
+## Linked List 2
 
 In the last challenge, we introduced the concept of a Linked List and you performed a transformation on the data structure to build a new Linked List that was the reversed list. In this challenge, you will reverse the linked list using mutation to modify the initial list that is provided.
 
@@ -130,7 +140,10 @@ end
 ```
 Fill in the blanks and make this method reverse the existing LinkedList and return the value of the new head, which would be the previous tail of the LinkedList.
 
-##Object Oriented Programming (OOP)
+
+
+
+## Object Oriented Programming (OOP)
 
 Build a class for a Dog, Pony, Mountain, or any real world object you want to represent in code.
 
